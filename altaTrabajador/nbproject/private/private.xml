@@ -4,20 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/conexion/Conexion.java</file>
-            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/vista/frmTablaDireccion.fxml</file>
-            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/vista/frmAcciones.fxml</file>
-            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/vista/frmLlenadoDireccion.fxml</file>
-            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/vista/menu.fxml</file>
+            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/aplicacion/Main.java</file>
+            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/aplicacion/application.css</file>
+            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/aplicacion/FrmLlenadoTrabajadorController.java</file>
             <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/modelo/trabajador.java</file>
-            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/vista/frmConcentradoTrabajador.fxml</file>
-            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/vista/frmTablaDatosGenerales.fxml</file>
-            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/vista/frmLlenadoTrabajador.fxml</file>
-            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/vista/frmLlenadoContacto.fxml</file>
-            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/vista/frmLlenadoDatosBancarios.fxml</file>
-            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/vista/frmTablaBancos.fxml</file>
-            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/vista/frmTablaContacto.fxml</file>
-            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/vista/frmTablaLlenadoPuestosAccesos.fxml</file>
-            <file>file:/C:/Users/PC%20GUSTAVO/Documents/NetBeansProjects/altaTrabajador/src/vista/frmLlenadoPuestos.fxml</file>
         </group>
     </open-files>
 </project-private>

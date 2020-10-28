@@ -1,6 +1,9 @@
 
 package modelo;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
@@ -142,6 +145,31 @@ public class trabajador {
         this.status = new SimpleStringProperty(status);
     }
     
-    
+    public int guardarRegistro(Connection connection){
+            try {
+                //Evitar inyeccion SQL.
+                PreparedStatement instruccion =
+                connection.prepareStatement("INSERT INTO trabajador (nombre, fecha_nacimiento, rfc, nss , curp, doc_identidad, num_documento, "
+                        + "tipo_licencia, num_licencia, fecha_expedicion, fecha_vgencia) " +
+                "VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+                instruccion.setString(1, nombre.get());
+                instruccion.setString(2, fecha_nacimiento.get());
+                instruccion.setString(3, rfc.get());
+                instruccion.setString(4, nss.get());
+                instruccion.setString(5, curp.get());
+                instruccion.setString(6, doc_identidad.get());
+                instruccion.setString(7, num_documento.get());
+                instruccion.setString(8, tipo_licencia.get());
+                instruccion.setString(9, num_licencia.get());
+                instruccion.setString(10, fecha_expicion.get());
+                instruccion.setString(11, fecha_vigencia.get());
+
+                
+                return instruccion.executeUpdate();
+            } catch (SQLException e) {
+                e.printStackTrace();
+                return 0;
+            }
+	}
     
 }
